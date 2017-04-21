@@ -17,5 +17,8 @@
     "eslint": "^0.10.0",
     "istanbul": "^0.3.2",
     "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
