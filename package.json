@@ -8,7 +8,8 @@
     "test": "istanbul cover tape \"test/*-test.js\"",
     "lint": "eslint index.js",
     "ci-test": "istanbul cover tape \"test/*-test.js\" > test.tap && istanbul report clover",
-    "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml"
+    "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml",
+    "server": "node index"
   },
   "keywords": [],
   "author": "Marc Harter <wavded@gmail.com>",
